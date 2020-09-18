@@ -144,6 +144,9 @@
 	{
 		margin-bottom: 50px;
 	}
+	.calculator{
+		width: auto;
+	} 
 }
 
 /************
@@ -213,6 +216,9 @@
 	.cta_text a
 	{
 		font-size: 28px;
+	}
+	.calculator{
+		width: auto;
 	}
 }
 
@@ -331,6 +337,9 @@
 		height: 36px;
 		font-size: 10px;
 	}
+	.calculator{
+		width: auto;
+	}
 }
 
 /************
@@ -340,8 +349,11 @@
 @media only screen and (max-width: 539px)
 {
 	
-}
 
+.calculator{
+	width: auto;
+}
+}
 /************
 12. 480px
 ************/
@@ -358,13 +370,18 @@
 @media only screen and (max-width: 479px)
 {
 	h1{font-size: 24px;}
-}
 
+	.calculator{
+		width: auto;
+	}
+}
 /************
 14. 400px
 ************/
 
 @media only screen and (max-width: 400px)
 {
-	
+	.calculator{
+		width: auto;
+	}
 }
