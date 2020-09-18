@@ -1,0 +1,10 @@
+$(document).ready(function(){
+    if (document.getElementById('adsense') != undefined){
+        $("div#adsense").css("display", "none");
+    } else {
+        var direct_url = $("a.wmtButton").attr("direct");
+        if (typeof direct_url != "undefined" && direct_url != "") {
+            $("a.wmtButton").attr("href", direct_url);
+        }
+    }
+});
