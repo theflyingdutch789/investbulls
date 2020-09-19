@@ -1,0 +1,286 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="robots" content="noindex">
+
+<script type="text/javascript" src="./calculatorn_files/ads.js.download"></script></head><body><div id="adsense" style="visibility: hidden; display: none;">ad</div>
+<script type="text/javascript" language="javascript" src="./calculatorn_files/jquery.js.download"></script>
+<script type="text/javascript" src="./calculatorn_files/dlinks.js.download"></script>
+<script type="text/javascript" language="javascript" src="./calculatorn_files/ajax_func.js.download"></script>
+<script type="text/javascript" language="javascript" src="./calculatorn_files/tools_functions.js.download"></script>
+<link href="./calculatorn_files/tools.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="./calculatorn_files/nyx_classes_75.css" type="text/css">
+
+<script type="text/javascript">
+window.wmtData = {
+	    decimalPoint: '.',
+	    thousandSep: ','
+};
+<!--
+
+$(document).ready( function() {
+	
+
+		$('#calc_form input').keypress(function(event) { if (event.keyCode == 13) { pivot_submit(); return false; } }); 
+		
+});
+
+
+-->
+</script>
+<style>
+
+/* New Buttons */
+.newBtn{background-image:url('https://i-invdn-com.akamaized.net/new_btn_v4.png');height:21px;}
+
+/* General Icons*/
+.generalIcons{background-image:url('https://i-invdn-com.akamaized.net/icons_v22.png') !important;background-repeat:no-repeat !important;padding:0px 14px 0px 0px;text-decoration:none !important;}
+
+/* Pivot Calculator */
+.pivot #results .disabled{background-image:url('https://i-invdn-com.akamaized.net/pivotcalcbg.gif')};
+
+/* converter */
+.newBtnSpecial{background-image:url('https://i-invdn-com.akamaized.net/new_btn_special_v2.png');height:16px;font-family:arial;}
+
+.newSiteIconsSprite {background-image: url('https://i-invdn-com.akamaized.net/newSiteIconsSprite_v30i.png');}
+
+.fLeft {float:left;}
+.inlineblock {display:inline-block; *display:inline; zoom:1;}
+.newSiteIconsSprite {background-image: url('https://i-invdn-com.akamaized.net/newSiteIconsSprite_v30i.png');}
+.greenAndroidIcon {background-position:-95px -1337px; width:15px; height:19px;}	
+.greenAndroidIconSmall {background-position:-133px -1314px; width:12px; height:14px;}	
+
+.downloadApp {position:relative; top:2px;}
+.wmtTooltip {display:none; padding:5px 8px 5px 7px; background-color:#333; color:#fff; line-height:normal;position:absolute; top:29px; left:-8px; z-index:1; white-space:nowrap; font-weight:bold;}
+.wmtTooltip:before {content:""; border-style:solid; border-color:transparent transparent #333 transparent; border-width:0 6px 6px 6px; left:7px; top:-6px; position:absolute; display:block;}/* tooltip triangle */
+.downloadApp:hover .wmtTooltip {display:block;}
+.smallGreyAppleLogo {background-position:-78px -1465px; width:12px; height:14px; display:inline-block;}
+.downloadApp + .downloadApp { margin-left:6px; padding-left:6px; border-left:1px solid #dadada; height:16px; line-height:0;}
+.downloadApp + .downloadApp .wmtTooltip {left:-1px; top:29px;}
+</style>
+
+
+<div class="inlineblock">
+<table border="0" cellspacing="0" cellpadding="0" style="clear:both">
+	<tbody><tr>
+		<td>
+		
+<form onsubmit="return false;" id="calc_form" name="calc_form">
+		<div class="template_mini_frame_gray">
+		<div class="template_mini_frame_gray_hdr calc_title calc_title_pips template_mini_frame_gray_hdr_1">
+		
+		<span class="calculatorIcon generalIcons">&nbsp;</span>Pivot Point Calculator</div>
+		
+		<div id="background_color_div" class="template_mini_frame_gray_text pivot">
+		<div class="arial_12_gray template_mini_frame_gray_text_1">
+
+		<table cellspacing="0" cellpadding="0" border="0">
+			<tbody><tr>
+				<td class="arial_12_b vertical info">High:</td>
+				<td class="vertical"><input type="text" id="HRate" class="input_border"></td>
+			</tr>
+			<tr>
+				<td class="arial_12_b vertical info">Low:</td>
+				<td class="vertical"><input type="text" id="LRate" class="input_border">
+				</td>
+			</tr>
+			<tr>
+				<td class="arial_12_b vertical info">Close:</td>
+				<td class="vertical"><input type="text" id="CRate" class="input_border"></td>
+			</tr>
+			<tr>
+				<td class="arial_12_b vertical info">Open:</td>
+				<td class="vertical"><input type="text" id="ORate" class="input_border"></td>
+			</tr>
+			<tr>
+				<td class="submit greylinediv" colspan="3">
+					<div class="container">
+						<div class="calc float_lang_base_1">
+							<a onclick="pivot_submit();" href="javascript:void(0);" class="newBtnHover"> 
+								<span class="newBtn newBtnLeft leftNewBtnGreen">&nbsp;</span><span class="newBtn newBtnCenter centerNewBtnGreen">Calculate</span><span class="newBtn newBtnRight rightNewBtnGreen">&nbsp;</span>							</a>
+						</div>
+						
+					</div>
+					<div id="loader" class="float_lang_base_1 hide"><img src="./calculatorn_files/ajax-loader-small.gif"></div>
+				</td>
+				
+				</tr>
+		</tbody></table>
+		<div class="pips">
+		<div id="total">
+				
+					<table cellspacing="0" cellpadding="0" border="0" id="results">
+						<tbody><tr class="title">
+							<td class="firstCol">
+								
+							</td>
+							<td class="arial_12_b titleInfoCol">
+								Classic							</td>
+							<td class="arial_12_b titleInfoCol">
+								Woodie's							</td>
+							<td class="arial_12_b titleInfoCol">
+								Camarilla							</td>
+							<td class="arial_12_b titleInfoCol">
+								DeMark's							</td>
+						</tr>
+						
+													<tr class="subtotal">
+								<td class="arial_12_b firstCol">
+								Resistance 4								</td>
+								<td class="arial_12 infoCol disabled" id="br4">
+									
+								</td>
+								<td class="arial_12 infoCol disabled" id="wr4">
+									
+								</td>
+								<td class="arial_12 infoCol" id="cr4">
+									
+								</td>
+								<td class="arial_12 infoCol disabled" id="demar4">
+									
+								</td>
+							</tr>
+													<tr class="subtotal">
+								<td class="arial_12_b firstCol">
+								Resistance 3								</td>
+								<td class="arial_12 infoCol" id="br3">
+									
+								</td>
+								<td class="arial_12 infoCol disabled" id="wr3">
+									
+								</td>
+								<td class="arial_12 infoCol" id="cr3">
+									
+								</td>
+								<td class="arial_12 infoCol disabled" id="demar3">
+									
+								</td>
+							</tr>
+													<tr class="subtotal">
+								<td class="arial_12_b firstCol">
+								Resistance 2								</td>
+								<td class="arial_12 infoCol" id="br2">
+									
+								</td>
+								<td class="arial_12 infoCol" id="wr2">
+									
+								</td>
+								<td class="arial_12 infoCol" id="cr2">
+									
+								</td>
+								<td class="arial_12 infoCol disabled" id="demar2">
+									
+								</td>
+							</tr>
+													<tr class="subtotal">
+								<td class="arial_12_b firstCol">
+								Resistance 1								</td>
+								<td class="arial_12 infoCol" id="br1">
+									
+								</td>
+								<td class="arial_12 infoCol" id="wr1">
+									
+								</td>
+								<td class="arial_12 infoCol" id="cr1">
+									
+								</td>
+								<td class="arial_12 infoCol" id="demar1">
+									
+								</td>
+							</tr>
+													<tr class="subtotal">
+								<td class="arial_12_b firstCol">
+								Pivot Point								</td>
+								<td class="arial_12 infoCol" id="bp">
+									
+								</td>
+								<td class="arial_12 infoCol" id="wp">
+									
+								</td>
+								<td class="arial_12 infoCol disabled" id="cp">
+									
+								</td>
+								<td class="arial_12 infoCol disabled" id="demap">
+									
+								</td>
+							</tr>
+													<tr class="subtotal">
+								<td class="arial_12_b firstCol">
+								Support 1								</td>
+								<td class="arial_12 infoCol" id="bs1">
+									
+								</td>
+								<td class="arial_12 infoCol" id="ws1">
+									
+								</td>
+								<td class="arial_12 infoCol" id="cs1">
+									
+								</td>
+								<td class="arial_12 infoCol" id="demas1">
+									
+								</td>
+							</tr>
+													<tr class="subtotal">
+								<td class="arial_12_b firstCol">
+								Support 2								</td>
+								<td class="arial_12 infoCol" id="bs2">
+									
+								</td>
+								<td class="arial_12 infoCol" id="ws2">
+									
+								</td>
+								<td class="arial_12 infoCol" id="cs2">
+									
+								</td>
+								<td class="arial_12 infoCol disabled" id="demas2">
+									
+								</td>
+							</tr>
+													<tr class="subtotal">
+								<td class="arial_12_b firstCol">
+								Support 3								</td>
+								<td class="arial_12 infoCol" id="bs3">
+									
+								</td>
+								<td class="arial_12 infoCol disabled" id="ws3">
+									
+								</td>
+								<td class="arial_12 infoCol" id="cs3">
+									
+								</td>
+								<td class="arial_12 infoCol disabled" id="demas3">
+									
+								</td>
+							</tr>
+													<tr class="subtotal subrow">
+								<td class="arial_12_b firstCol">
+								Support 4								</td>
+								<td class="arial_12 infoCol disabled" id="bs4">
+									
+								</td>
+								<td class="arial_12 infoCol disabled" id="ws4">
+									
+								</td>
+								<td class="arial_12 infoCol" id="cs4">
+									
+								</td>
+								<td class="arial_12 infoCol disabled" id="demas4">
+									
+								</td>
+							</tr>
+												
+					</tbody></table>
+			</div>
+		</div>
+		</div>
+		</div>
+		</div>
+		
+		</form>
+
+
+		</td>
+	</tr>
+</tbody></table>
+</div>
+
+</body></html>
