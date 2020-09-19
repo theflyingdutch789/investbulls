@@ -510,7 +510,8 @@ section
 }
 .logo_img img
 {
-	max-width: 175%;
+	max-width: 200%;
+	padding-bottom: 1rem;
 }
 .top_bar_content
 {
