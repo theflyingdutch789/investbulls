@@ -1,0 +1,394 @@
+body {color: #000000;font-family: Arial,Verdana,Helvetica,sans-serif;font-size: 11px;}
+p, td, li, form, label{font-size: 11px;}
+td, ul, ol, li, form, input, select{padding:0;margin:0;}
+img{padding: 0;border: 0;}
+p{line-height:120%;padding:0 0 10px 0;color:#000;font-weight:normal;border:0;margin:0;}
+p.clearit{clear:both;line-height:1px;font-size:1px;} 
+div.clearit {clear:both;line-height:1px;font-size:1px;height:1px;} 
+h1, h2, h3, h4{font-size:18px;line-height:120%;padding:0 0 5px 0;border:0;margin:0;font-weight:normal;color:#0059B0;}
+h5, h6{font-size:x-small;padding:10px 0 2px 0;border:0;margin:0;}
+select{font-size: x-small;}
+a{color:#0059B0;text-decoration:none;}
+a:hover{color:#0059B0;text-decoration:underline;}
+label{color:#000;vertical-align:top;font-size:x-small;}
+
+.hide{display:none;}
+
+.float_lang_base_1{float:left;}
+.float_lang_base_2{float:right;}
+
+.arial_11{font:11px arial;color:#000000;}
+a.arial_11:link{font:11px arial;color:#000000;text-decoration: none;}
+a.arial_11:visited{font:11px arial;color:#000000;text-decoration: none;}
+a.arial_11:hover{font:11px arial;color:#000000;text-decoration: underline;}
+
+.arial_11_b{font:bold 11px arial;color:#000000;}
+a.arial_11_b:link{font:bold 11px arial;color:#000000;text-decoration: none;}
+a.arial_11_b:visited{font:bold 11px arial;color:#000000;text-decoration: none;}
+a.arial_11_b:hover{font:bold 11px arial;color:#000000;text-decoration: underline;}
+
+.arial_12{font:12px arial;color:#000000;}
+.arial_12, .arial_12 p, .arial_12 div{font:12px arial;color:#000000;}
+
+.arial_12_italic{font:12px arial;color:#000000;font-style:italic;}
+.arial_12_italic, .arial_12_italic p, .arial_12_italic div{font:12px arial;color:#000000;font-style:italic;}
+
+.arial_12_b{font:bold 12px arial;color:#000000;}
+.arial_12_b, .arial_12_b p, .arial_12_b div{font:bold 12px arial;color:#000000;}
+
+.arial_14{font:14px arial;color:#000000;}
+.arial_14_b{font:bold 14px arial;color:#000000;}
+
+.arial_14_blue{font:14px arial;color:#0059b0;}
+a.arial_14_blue:link{font:14px arial;color:#0059b0;text-decoration: none;}
+a.arial_14_blue:visited{font:14px arial;color:#0059b0;text-decoration: none;}
+a.arial_14_blue:hover{font:14px arial;color:#0059b0;text-decoration: underline;}
+
+.arial_14_b_blue{font:bold 14px arial;color:#0059b0;}
+a.arial_14_b_blue:link{font:bold 14px arial;color:#0059b0;text-decoration: none;}
+a.arial_14_b_blue:visited{font:bold 14px arial;color:#0059b0;text-decoration: none;}
+a.arial_14_b_blue:hover{font:bold 14px arial;color:#0059b0;text-decoration: underline;}
+
+.arial_14_dark_blue{font: 14px arial;color:#001b64;}
+a.arial_14_dark_blue:link{font: 14px arial;color:#001b64;text-decoration: none;}
+a.arial_14_dark_blue:visited{font: 14px arial;color:#001b64;text-decoration: none;}
+a.arial_14_dark_blue:hover{font: 14px arial;color:#001b64;text-decoration: underline;}
+
+.arial_14_b_dark_blue{font:bold 14px arial;color:#001b64;}
+a.arial_14_b_dark_blue:link{font:bold 14px arial;color:#001b64;text-decoration: none;}
+a.arial_14_b_dark_blue:visited{font:bold 14px arial;color:#001b64;text-decoration: none;}
+a.arial_14_b_dark_blue:hover{font:bold 14px arial;color:#001b64;text-decoration: underline;}
+
+.arial_14_gray{font:14px arial;color:#686868;}
+a.arial_14_gray:link{font:14px arial;color:#686868;text-decoration: none;}
+a.arial_14_gray:visited{font:14px arial;color:#686868;text-decoration: none;}
+a.arial_14_gray:hover{font:14px arial;color:#686868;text-decoration: underline;}
+
+.arial_14_b_gray{font:bold 14px arial;color:#686868;}
+a.arial_14_b_gray:link{font:bold 14px arial;color:#686868;text-decoration: none;}
+a.arial_14_b_gray:visited{font:bold 14px arial;color:#686868;text-decoration: none;}
+a.arial_14_b_gray:hover{font:bold 14px arial;color:#686868;text-decoration: underline;}
+
+.arial_14_red_b{font:bold 14px arial;color:#bf1302;}
+a.arial_14_red_b:link{font:bold 14px arial;color:#bf1302;text-decoration: none;}
+a.arial_14_red_b:visited{font:bold 14px arial;color:#bf1302;text-decoration: none;}
+a.arial_14_red_b:hover{font:bold 14px arial;color:#bf1302;text-decoration: underline;}
+
+.arial_16{font:16px arial;color:#000000;}
+a.arial_16:link{font:16px arial;color:#000000;text-decoration: none;}
+a.arial_16:visited{font:16px arial;color:#000000;text-decoration: none;}
+a.arial_16:hover{font:16px arial;color:#000000;text-decoration: underline;}
+
+.arial_16_b{font:bold 16px arial;color:#000000;}
+.arial_16_b_blue{font:bold 16px arial;color:#3279BE;}
+a.arial_16_b:link{font:bold 16px arial;color:#000000;text-decoration: none;}
+a.arial_16_b:visited{font:bold 16px arial;color:#000000;text-decoration: none;}
+a.arial_16_b:hover{font:bold 16px arial;color:#000000;text-decoration: underline;}
+
+.arial_16_green{font:16px arial;color:#00a708;}
+a.arial_16_green:link{font:16px arial;color:#00a708;text-decoration: none;}
+a.arial_16_green:visited{font:16px arial;color:#00a708;text-decoration: none;}
+a.arial_16_green:hover{font:16px arial;color:#00a708;text-decoration: underline;}
+
+.arial_18{font:18px arial;color:#000000;}
+.arial_18_b{font:bold 18px arial;color:#000000;}
+.arial_18_white{font:18px arial;color:#ffffff;}
+
+.template_mini_frame_gray{width:422px;text-align:left;}
+.template_mini_frame_gray_text_1{color:#333333;padding:12px 10px;}
+.template_mini_frame_gray_hdr{width:100%;background:#ffffff 8px -55px no-repeat;border-left:1px solid #d1d1d1;border-right:1px solid #d1d1d1;border-bottom:1px solid #d1d1d1;}
+.template_mini_frame_gray_hdr_1{padding-left:18px;color:#001B64;font:bold 12px arial;height:25x;line-height:25px;}
+.template_mini_frame_gray_text{background-color:#F7F7F7;border-left:1px solid #d1d1d1;border-right:1px solid #d1d1d1;border-bottom:1px solid #d1d1d1;}
+
+/* New Buttons */
+.newBtn{background-image:url('https://i-invdn-com.akamaized.net/new_btn_v4.png');height:21px;}
+.newBtnHover{text-decoration:none !important;white-space:nowrap;}
+.newBtnHover:active{outline:none;}
+.newBtnHover:focus{outline:none;}
+
+.newBtnLeft{background-repeat:no-repeat;padding:2px 0 3px 1px;width:5px;margin:0 0 0 0;font-size:14px;}
+.newBtnCenter{background-repeat:repeat-x;padding:2px 11px 3px 11px;color:#fff;font-size:14px;}
+.newBtnRight{background-repeat:no-repeat;padding:2px 2px 3px 0;width:5px;margin:0 0 0 0;font-size:14px;}
+
+.leftNewBtnGreen{background-position:left 0;}
+.centerNewBtnGreen{background-position:0 -26px;text-shadow:#137000 0 0 5px;}
+.rightNewBtnGreen{background-position:left -52px;}
+
+.leftNewBtnGray{background-position:left -78px;}
+.centerNewBtnGray{background-position:0 -104px;text-shadow:#5d5d5d 0 0 5px;}
+.rightNewBtnGray{background-position:left -130px;}
+
+.leftNewBtnOrange{background-position:left -156px;}
+.centerNewBtnOrange{background-position:0 -182px;text-shadow:#bb3000 0 0 5px;}
+.rightNewBtnOrange{background-position:left -208px;}
+
+.leftNewBtnBlue{background-position:left -234px;}
+.centerNewBtnBlue{background-position:0 -260px;text-shadow:#07598c 0 0 5px;}
+.rightNewBtnBlue{background-position:left -286px;}
+
+.leftNewBtnBigBlue{background-position:left -312px;padding:6px 0 7px 0 !important;font-size:16px !important;}
+.centerNewBtnBigBlue{background-position:0 -348px;padding:6px 11px 7px 11px !important;text-shadow:#002a54 0 0 5px;font-size:16px !important;}
+.rightNewBtnBigBlue{background-position:left -384px;padding:6px 5px 7px 0 !important;font-size:16px !important;}
+
+.newBtnStrongSellLeft{background-position:left -420px;width:10px;padding:2px 6px 3px 0;}
+.newBtnStrongSellCenter{background-position:left -455px;}
+.newBtnStrongSellRight{background-position:left -470px;width:10px;padding:2px 6px 3px 0;}
+
+.newBtnSellLeft{background-position:left -495px;width:10px;padding:2px 6px 3px 0;}
+.newBtnSellCenter{background-position:left -520px;}
+.newBtnSellRight{background-position:left -545px;width:10px;padding:2px 6px 3px 0;}
+
+.newBtnNeutralLeft{background-position:left -570px;width:10px;padding:2px 6px 3px 0;}
+.newBtnNeutralCenter{background-position:left -595px;}
+.newBtnNeutralRight{background-position:left -620px;width:10px;padding:2px 6px 3px 0;}
+
+.newBtnBuyLeft{background-position:left -645px;width:10px;padding:2px 6px 3px 0;}
+.newBtnBuyCenter{background-position:left -670px;}
+.newBtnBuyRight{background-position:left -695px;width:10px;padding:2px 6px 3px 0;}
+
+.newBtnStrongBuyLeft{background-position:left -720px;width:10px;padding:2px 6px 3px 0;}
+.newBtnStrongBuyCenter{background-position:left -745px;}
+.newBtnStrongBuyRight{background-position:left -770px;width:10px;padding:2px 6px 3px 0;}
+
+.leftNewBtnSquareGray{background-position:left -795px;}
+.centerNewBtnSquareGray{background-position:0 -819px;padding:2px 6px 3px 6px;}
+.rightNewBtnSquareGray{background-position:left -843px;}
+
+.leftNewBtnWhite{background-position:left -867px;}
+.centerNewBtnWhite{background-position:0 -893px;padding:2px 6px 3px 6px;color:#0059B0;font-weight:normal;}
+.rightNewBtnWhite{background-position:left -919px;}
+
+/* New Buttons */
+
+/* General Icons*/
+.generalIcons{background-image:url('https://i-invdn-com.akamaized.net/icons_v22.png') !important;background-repeat:no-repeat !important;padding:0 14px 0 0;text-decoration:none !important;}
+.generalIcons:hover{text-decoration:none !important;}
+.addCommentIcon{background-position:0 -204px;width:18px;height:17px;padding:0 0 3px 18px;}
+.addToFolderIcon{background-position:0 -1592px;width:38px;height:19px;padding:2px 0 3px 38px;}
+.addToPrtfolioIcon{background-position:0 -902px;width:18px;height:12px;padding:0 9px 0 9px;font-size:12px;}
+.attachedFilesIcon{background-position:0 -231px;width:15px;height:14px;}
+.attachedImagesIcon{background-position:0 -255px;width:18px;height:15px;}
+.arrowDownIcon{background-position:-33px -113px;width:10px;height:10px;padding:0;}
+.bearishVoteSmallIcon{background-position:0 -1298px;width:29px;height:30px;padding:0 25px 15px 0;}
+.bearishVoteSmallHoverIcon{background-position:0 -1338px;width:29px;height:30px;padding:0 25px 15px 0;}
+.bearishVoteSmallChosenIcon{background-position:0 -1378px;width:29px;height:30px;padding:0 25px 15px 0;}
+.bearishVoteIcon{background-position:0 -1415px;width:49px;height:50px;padding:0px 34px 0px 0px;cursor:pointer;font-size:50px;}
+.bearishVoteHoverIcon{background-position:0px -1475px;width:49px;height:50px;padding:0px 34px 0px 0px;cursor:pointer;font-size:50px;}
+.bearishVoteChosenIcon{background-position:0px -1535px;width:49px;height:50px;padding:0px 34px 0px 0px;cursor:pointer;font-size:50px;}
+.bearishShadow{background-position:-18px -266px;padding:0px 34px 0px 0px;font-size:26px;}
+.bearishSmall{background-position:-37px -1005px;padding:0px 0px 0px 10px;font-size:10px;}
+.bigQuotesTop{background-position:-22px -477px;font-size:17px;padding:0px 11px 0px 12px;}
+.bigQuotesBottom{background-position:-22px -504px;font-size:17px;padding:0px 11px 0px 12px;} 
+.bullishVoteSmallIcon{background-position:0px -1004px;width:29px;height:30px;padding:0px 25px 15px 0px;}
+.bullishVoteSmallHoverIcon{background-position:0px -1044px;width:29px;height:30px;padding:0px 25px 15px 0px;}
+.bullishVoteSmallChosenIcon{background-position:0px -1084px;width:29px;height:30px;padding:0px 25px 15px 0px;}
+.bullishVoteIcon{background-position:0px -1121px;width:49px;height:50px;padding:0px 34px 0px 0px;cursor:pointer;font-size:50px;}
+.bullishVoteHoverIcon{background-position:0px -1181px;width:49px;height:50px;padding:0px 34px 0px 0px;cursor:pointer;font-size:50px;}
+.bullishVoteChosenIcon{background-position:0px -1241px;width:49px;height:50px;padding:0px 34px 0px 0px;cursor:pointer;font-size:50px;}
+.bullishShadow{background-position:-18px -229px;padding:0px 34px 0px 0px;font-size:26px;}
+.bullishSmall{background-position:-31px -1028px;padding:0px 0px 0px 15px;font-size:13px;}
+.bugCloseIcon{background-position:0px -140px;width:12px;height:12px;padding:0px 9px 0px 0px;}
+.bugIcon{background-position:0px -162px;width:15px;height:15px;padding:0px;}
+.calculatorIcon{background-position:-28px -363px;width:12px;height:12px;padding:0px 6px 2px 6px;}
+.calendarIcon{background-position:-30px -203px;width:19px;height:18px;padding:0px 6px 2px 6px;}
+.cashBagIcon{background-position:-28px -336px;width:12px;height:12px;padding:0px 6px 2px 6px;}
+.cbIcon{background-position:0px -1908px;width:19px;height:18px;padding:15px 24px 15px 24px;}
+.chartIcon{background-position:0px -807px;width:15px;height:12px;padding:0px 5px 0px 7px;font-size:12px;}
+.CurlyBracketIcon{background-position:-45px -812px;width:15px;height:70px;padding:0;}
+.clockGreenIcon{background-position:0px -978px;width:15px;height:12px;padding:0px 6px 1px 10px;}
+.clockRedIcon{background-position:0px -952px;width:15px;height:12px;padding:0px 6px 1px 10px;}
+.clockGreenIconSmall{background-position:-29px -781px;width:12px;height:12px;padding:0px 6px 1px 6px;}
+.clockRedIconSmall{background-position:-29px -759px;width:12px;height:12px;padding:0px 6px 1px 6px;}
+.clockBlueBigIcon{background-position:0px -2313px;width:67px;height:74px;}
+.confirmIcon{background-position:-29px -54px;width:16px;height:16px;padding:0px 0px 2px 15px;}
+.del_enIcon{background-position:0px -56px;width:19px;height:18px;padding:3px 19px 1px 0px;}
+.deleteFolderIcon{background-position:0px -1644px;width:19px;height:18px;padding:1px 17px 0px 0px;}
+.deleteFolderDisableIcon{background-position:-29px -130px;width:19px;height:18px;padding:1px 17px 0px 0px;}
+.diggIcon{background-position:0px -84px;width:19px;height:18px;padding:3px 19px 1px 0px;}
+.expert{background-position:-29px -385px;width:19px;height:18px;padding:15px 9px 2px 9px;}
+.fcUptrendChartIcon{background-position:0px -1960px;width:67px;height:39px;padding:0px;}
+.fcDowntrendChartIcon{background-position:0px -2010px;width:67px;height:39px;padding:0px;}
+.feedbackIcon{background-position:-48px -451px;width:18px;height:17px;padding:0px 0px 3px 2px;}
+.fresquiIcon{background-position:0px -112px;width:19px;height:18px;padding:3px 19px 1px 0px;}
+.fontSizeIcon{background-position:0px -280px;width:18px;height:17px;padding:0px 0px 3px 18px;}
+.folderIcon{background-position:0px -858px;width:18px;height:17px;padding:0px 4px 3px 9px;}
+.homeIcon{background-position:-22px -534px;font-size:11px;padding:0px 6px 0px 7px !important;}
+.interestRatesIcon{background-position:-28px -309px;width:12px;height:12px;padding:0px 6px 2px 6px;}
+.LinkarenaIcon{background-position:0px 0px;width:19px;height:18px;padding:3px 19px 1px 0px;}
+.linkIcon{background-position:0px -187px;width:16px;height:7px;padding:0px;}
+.loginHolidayAlertsIcon{background-position:-20px -2127px;width:47px;height:36px;}
+.loginAlertsEventsIcon{background-position:-20px -2087px;width:46px;height:38px;}
+.loginEnvelopIcon{background-position:-20px -2054px;width:43px;height:32px;}
+.loginPersonalPortfolioIcon{background-position:-21px -2168px;width:44px;height:26px;}
+.loginWebinarsIcon{background-position:-20px -2195px;width:43px;height:34px;}
+.loginSpeacialIcon{background-position:-23px -2236px;width:42px;height:40px;}
+.loginCommentsIcon{background-position:-24px -2279px;width:40px;height:30px;}
+.MeneameIcon{background-position:0px -28px;width:19px;height:18px;padding:3px 19px 1px 0px;}
+.mixxIcon{background-position:0px -438px;width:19px;height:18px;padding:3px 19px 1px 0px;}
+.mobileIcon{background-position:-24px -936px;padding:3px 5px 1px;}
+.pdfIcon{background-position:0px -307px;width:15px;height:15px;}
+/*.printIcon{background-position:0px -332px;padding:0px 0px 3px 18px;}*/
+.printIcon{background-position:0px -333px;padding:0px 0px 3px 13px;} /*changed for Gil */
+.propellerIcon{background-position:0px -466px;width:19px;height:18px;padding:3px 19px 1px 0px;}
+.quotesClearIcon{background-position:-26px -916px;width:15px;height:12px;padding:0px 0px 0px 14px;}
+.redditIcon{background-position:0px -494px;width:19px;height:18px;padding:3px 19px 1px 0px;}
+.renameFolderIcon{background-position:0px -1621px;width:19px;height:18px;padding:1px 17px 0px 0px;}
+.returnArrowIcon{background-position:0px -926px;width:18px;height:17px;padding:0px 0px 3px 9px;}
+.rssIcon{background-position:0px -522px !important;width:14px !important;height:14px !important;}
+.sendIcon{background-position:0px -359px;width:18px;height:17px;padding:0px 0px 3px 18px;}
+.shareIcon{background-position:0px -386px;width:22px;height:18px;}
+.squareLight{background-position:0px -567px;width:3px;height:3px;padding:0px !important;}
+.sentimentsCloseIcon{background-position:0px -830px;width:3px;height:3px;padding:0px 0px 4px 15px;}
+.surveyIcon{background-position:0px -1750px;width:19px;height:18px;padding:15px 24px 15px 24px;}
+.smi2Icon{background-position:0px -546px;width:16px;height:16px;padding:3px 19px 1px 0px;}
+.technoratiIcon{background-position:0px -585px;width:19px;height:18px;padding:3px 19px 1px 0px;}
+.technicalIcon{background-position:-30px -180px;width:19px;height:12px;padding:0px 12px 0px 0px;font-size:12px;}
+.yahooIcon{background-position:0px -780px;width:19px;height:18px;padding:3px 19px 1px 0px;}
+.videoIcon{background-position:0px -414px;width:12px;height:14px;}
+.wafferIcon{background-position:0px -613px;width:15px;height:15px;}
+.wapherIcon{background-position:0px -638px;width:19px;height:18px;padding:3px 19px 1px 0px;}
+.webnewsIcon{background-position:0px -666px;width:17px;height:17px;padding:3px 19px 1px 0px;}
+.webnewsdeIcon{background-position:0px -693px;width:19px;height:18px;padding:3px 19px 1px 0px;}
+.wikioIcon{background-position:0px -721px;width:19px;height:18px;padding:3px 19px 1px 0px;}
+.wongIcon{background-position:0px -749px;width:20px;height:21px;padding:3px 19px 1px 0px;}
+.worldIcon{background-position:-21px -80px;width:18px;height:18px;padding:0px;}
+.writerAd{background-position:0px -2386px;padding:3px 30px 36px;}
+.X-circule{background-position:0px -880px;width:20px;height:12px;padding:0px 5px 0px 5px;font-size:12px;}
+.X-circuleBig{background-position:-43px -892px;width:20px;height:20px;padding:0px;}
+.X-circuleWithShadowIcon{background-position:-30px -155px;width:20px;height:21px;padding:0px 0px 1px 12px;}
+.X-whiteSquareIcon{background-position:-29px 0px;width:16px;height:16px;padding:0px 0px 2px 13px;}
+.X-whiteSquareOverIcon{background-position:-29px -26px;width:16px;height:16px;padding:0px 0px 2px 13px;}
+.accountsIcon{background-position:-24px -556px;width:18px;height:18px;}
+.interviewsIcon{background-position:-24px -581px;width:18px;height:18px;}
+.promotionsIcon{background-position:-24px -607px;width:18px;height:18px;}
+.productsIcon{background-position:-24px -633px;width:18px;height:18px;}
+.FPIcon{background-position:-23px -658px;width:25px;height:25px;}
+.resetIconDirectory{background-position:-27px -729px;width:20px;height:20px;padding:0 2px 0 0 !important;}
+.plusTooltipIcon{background-position:-34px -691px;width:12px;height:12px;padding:0 !important;cursor:pointer;}
+.plusMoreIcon{background-position:-27px -896px;width:10px;height:10px;padding:0 2px 0 0 !important;}
+/* General Icons*/
+
+/* Profit Calc changed all*/
+/*form#calc_form {width: 422px;}*/
+form#calc_form table {width:100%}
+form#calc_form .template_mini_frame_gray_narrow {width:422px !important;}
+form#calc_form .template_mini_frame_gray {width:541px}
+form#calc_form .template_mini_frame_gray_text_1 {padding: 13px 15px;}
+form#calc_form .template_mini_frame_gray_text{margin-bottom:7px;}
+form#calc_form .template_mini_frame_gray_text_1 td {height:42px;}
+form#calc_form div.calc_title_narrow {width:411px !important;}
+form#calc_form div.calc_title {border-top: 3px solid #001b64; line-height:21px;padding-bottom: 1px; padding-left: 9px; width:523px; background-image: none;}
+form#calc_form .calculatorIcon {margin-right: 12px;}
+form#calc_form input {padding:2px 0 4px 5px;font-size:11px;height:11px;}
+.input_error{border: 1px solid #FA8C9A;background-color: #FFEFEF;}
+form#calc_form input.input_error{width:180px;}
+form#calc_form input.input_border {width:180px;}
+form#calc_form .input_border {border:1px solid #C1CCD1;}
+form#calc_form select {height:19px;font: 12px arial;margin-top: 1px;width: 187px;}
+form#calc_form select.nowidth {width:68px !important;}
+form#calc_form td.submit {height:16px; padding-top:15px; padding-bottom:24px;}
+form#calc_form td.info {width:145px; padding-left:21px; padding-right:30px;}
+form#calc_form td.total {padding: 20px 10px 9px 21px; height:auto !important;}
+form#calc_form label {margin-left: 4px;}
+form#calc_form .buy {margin-right:20px;}
+form#calc_form div.container {margin:0 auto; width: 92px;}
+form#calc_form #calculating {display:none;width: 16px;} 
+form#calc_form .sum {direction:ltr;padding: 20px 0px 9px 0px; height:auto !important;} 
+.greylinediv {border-bottom: 1px solid #D1D1D1;}
+/* Profit Calc */
+
+/* Fibonacci Calc */
+form#calc_form .FC_frame{padding: 23px 10px 26px 10px;}
+form#calc_form .FC_trend{width:185px; background-color:#FFF;border-collapse:collapse;}
+form#calc_form .FC_trend td{border:1px solid #bababa;}
+form#calc_form .FC_trend td.title{padding:0px;border-bottom-color:#A2A2A2;border-bottom-width:2px;}
+form#calc_form .FC_trend td.titler{width:100px;}
+form#calc_form .FC_trend td.titler .info{margin-top:23px;margin-left:9px;} 
+form#calc_form .FC_trend td.titlel{width:81px;border-left:0px !important;padding-top:5px;padding-left:7px;padding-bottom:4px;}
+form#calc_form .FC_trend td.form{height:128px;padding:15px 0 15px 10px;}
+form#calc_form .FC_trend .input_row .legend .blue_font{color:#49a4e6 !important;}
+form#calc_form .FC_trend .input_row .legend .yellow_font{color:#a3a300 !important;}
+form#calc_form .FC_trend .input_row .legend .orange_font{color:#de8b37 !important;}
+form#calc_form .FC_trend .input_row{width:161px;height:22px;margin-bottom:13px;}
+form#calc_form .FC_trend .input_row .legend{margin-top:4px;}
+form#calc_form .FC_trend .input_row .input_border{border-color: #AEB8BD;width:88px;}
+form#calc_form .FC_trend .input_row .input_error{width:88px;}
+form#calc_form .FC_trend .submit{width:121px; padding-top:6px;margin:0 auto;margin-bottom:1px;}
+form#calc_form .FC_curlysign{padding-top:72px;width:35px;text-align:center;}
+form#calc_form .FC_curlysign .CurlyBracketIcon {margin:0 auto;}
+form#calc_form .FC_calc {width:142px;background-color:#FFF;border-collapse:collapse;color:#000;}
+form#calc_form .FC_calc td {border:1px solid #bababa;}
+form#calc_form .FC_calc td.title{padding:0px;padding-left:6px;padding-top:6px;padding-bottom:2px;border-bottom-color:#A2A2A2;height:15px !important;border-bottom-width: 2px;}
+form#calc_form .FC_calc td.presentage{background-color:#f0f0f0;border-width:1px;width:56px; color:#000;line-height:22px;padding-left:7px;}
+form#calc_form .FC_calc td.result{border-right-width:1px;font-size:12px;line-height:22px;padding-left:8px;width:76px;}
+form#calc_form .FCextention{margin-left:14px;}
+/* Fibonacci Calc */
+
+/* CarryTrade calc */
+/*form#calc_form .suptitle {margin-top:26px;width:252px;height:15px;background-color:#FFF;border:1px solid #a7a7a7;border-bottom:0px;text-align:center;}
+*/form#calc_form #subtotal{width:100%;border-collapse:collapse;margin-bottom:14px;margin-top:26px;}
+form#calc_form #subtotal td{border:1px solid #a7a7a7;text-align:center;}
+form#calc_form #subtotal tr.title td{background-color:#efefef;height:25px;vertical-align:middle;border-bottom-width:2px;}
+form#calc_form #subtotal tr.subtotal td{background-color:#fff; height:41px;vertical-align:middle;direction:ltr;}
+form#calc_form #subtotal td.titlebig{width:168px;}
+form#calc_form #subtotal .subtotalbig {width:168px;}
+form#calc_form #subtotal .standart {width:126px;}
+/* CarryTrade calc */
+
+/* Currency Converter */
+form#calc_form .currency_converter {width:407px !important;margin:0px 50px;margin:0 auto;}
+form#calc_form .currency_converter td{height:20px;}
+form#calc_form .currency_converter .input_border{width:143px;}
+form#calc_form .currency_converter .input_error {width:143px;}
+form#calc_form .currency_converter select.input_border{width:150px;}
+form#calc_form .currency_converter .info{padding: 0 10px;}
+form#calc_form .currency_converter #total{padding-top:14px;}
+form#calc_form .currency_converter td.submit{padding-bottom:26px;padding-top:8px;}
+form#calc_form .currency_converter #second_currency_loading_div{display:none;}
+/* Currency Converter */
+
+/* Pips calc */
+form#calc_form .pips .info{padding-left:4px;padding-right:10px;width:auto;}
+form#calc_form .pips .input_border{width:126px;margin:0 10px;}
+form#calc_form .pips .input_error{width:126px;margin:0 10px;}
+form#calc_form .calc_title_pips{width: 530px !important;}
+form#calc_form .pips #total{border-top: 1px solid #FDFDFD;}
+form#calc_form #results{width:100%;border-collapse:collapse;margin-bottom:14px;margin-top:26px;border:1px solid #a7a7a7;}
+form#calc_form .pips #results td{border-right:1px solid #a7a7a7;border-bottom:1px solid #cbcbcb;text-align:left;background-color:#fff;vertical-align:middle;}
+form#calc_form .pips #results tr.title td{background-color:#efefef;height:0px;vertical-align:top;border-bottom:2px solid #a2a2a2;padding-top:4px;padding-left:8px;padding-bottom:5px;}
+form#calc_form .pips #results tr.subrow td{border-bottom:0px;}
+form#calc_form .pips #results tr.subtotal td{height:22px;padding-left:8px;}
+form#calc_form .pips #results .num{text-align:right;padding-right:9px;}
+form#calc_form .pips #results .titley{background-color:#efedd0 !important;}
+form#calc_form .pips #results .subtotaly{background-color:#fffdde !important; border-right:0px; white-space:nowrap;}
+form#calc_form .pips #results .currency{width:70px}
+form#calc_form .pips #results .price{width:55px}
+form#calc_form .pips #results .standard{width:82px}
+form#calc_form .pips #results .mini{width:83px}
+form#calc_form .pips #results .micro{width:83px}
+form#calc_form .pips #results .value{width:84px}
+/* Pips calc */
+
+/* Forex Heatmap */
+.fhm_timeTitle{margin-bottom: 16px;margin-left:6px;}
+.fhm_timeDate{margin-bottom: 16px;margin-top:2px;}
+.heatmapT{margin-bottom:23px;width:100%;border:1px solid #c7c7c7;border-collapse: collapse;border-spacing:0;}
+.heatmapT .fhm_currencies{width:69px;height:23px;border:1px solid #bbbbbb;background-color:#f5f5f5;text-align:center;}
+.heatmapT .fhm_firstRowWidth{width:53px !important;}
+.heatmapT .fhm_verticalCurrencies{width:53px;height:20px;border:1px solid #bbbbbb;background-color:#f5f5f5;text-align:center;}
+.heatmapT .heatmapInner{width:100%;border:1px solid #f5f5f5;border-collapse: collapse;border-spacing:0;}
+.heatmapInner .fhm_innerRow{width:69px;height:20px;border:1px solid #f5f5f5;}
+.fhm_infobox{margin-bottom:12px}
+.fhm_infobox .colorBox{width:12px;height:12px;margin-right:10px;margin-top:1px;display:inline-block;}
+/* Forex Heatmap */
+
+
+/* Pivot Calculator */
+.pivot td.info{width:54px !important;padding-left:4px !important;}
+.pivot #results{width:auto !important;}
+.pivot #results tr.title td{height:auto !important;}
+.pivot #results .firstCol{padding-right:20px;min-width:85px;white-space: nowrap;}
+.pivot #results .infoCol{width:87px;text-align:right !important;padding-right:8px;}
+.pivot #results .titleInfoCol{width:98px;}
+.pivot #results .disabled{background-image:url('https://i-invdn-com.akamaized.net/pivotcalcbg.gif')};
+/* Pivot Calculator */
